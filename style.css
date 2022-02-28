@@ -1,0 +1,529 @@
+
+/* ---------Main-Body----------  */
+
+body{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+}
+
+.main-wrapper{
+/* Dark-invoice-empty-button-not-active */
+
+
+position: absolute;
+width: 550px;
+height: 719px;
+top: 150px;
+
+background: #1F2937;
+}
+
+/* ---------Upper-Body----------  */
+
+.head-wrap{
+    /* Rectangle 105 */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+position: absolute;
+width: 550px;
+height: 190px;
+left: 0px;
+top: 0px;
+
+background: #3A69D2;
+}
+
+.main-heading{
+    /* Heading */
+
+position: relative;
+top: 25px;
+flex-grow: 2;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+}
+
+.main-para {
+    /* Supporting text */
+
+    position: relative;
+    top:-25px;
+    flex-grow: 1;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* ---------Lower-Body (Buttons)----------  */
+
+.body-wrap button:hover {
+    background-color: #94aee6;
+    border-color: #ffffff;
+    transform: scale(1.1);
+
+    /* font-size: large; */
+}
+
+.body-wrap p {
+    /* text-sm/leading-4/font-medium */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #4A4E74;
+}
+
+
+
+.btn-1 {
+/* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px;
+
+position: absolute;
+width: 142.11px;
+height: 45px;
+left: 38px;
+top: 231px;
+
+background: #D1D4F4;
+border: 1px solid #D5D4D8;
+box-sizing: border-box;
+border-radius: 7px;
+}
+
+.btn-2{
+/* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px;
+
+position: absolute;
+width: 142.11px;
+height: 45px;
+left: 203.44px;
+top: 231px;
+
+background: #D1D4F4;
+border: 1px solid #D5D4D8;
+box-sizing: border-box;
+border-radius: 7px;
+}
+
+.btn-3 {
+/* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px;
+
+position: absolute;
+width: 143.17px;
+height: 45px;
+left: 367.83px;
+top: 231px;
+
+background: #D1D4F4;
+border: 1px solid #D5D4D8;
+box-sizing: border-box;
+border-radius: 7px;
+}
+
+
+/* ---------Columns (TASK & TOTAL)----------  */
+
+.Task {
+    /* Supporting text */
+
+
+position: absolute;
+width: 95px;
+height: 22px;
+left: 39px;
+top: 300px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+
+color: #D5D4D8;
+}
+
+.Total {
+    /* Supporting text */
+
+
+position: absolute;
+width: 78px;
+height: 22px;
+left: 432px;
+top: 300px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+text-align: right;
+
+color: #D5D4D8;
+
+}
+
+/* ---------Services----------  */
+
+.Service-1 {
+    /* Supporting text */
+
+    position: absolute;
+    width: 97px;
+    height: 21px;
+    left: 39px;
+    top: 360px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+
+    color: #F5F5F5;
+}
+
+.Service-2 {
+    /* Supporting text */
+
+    position: absolute;
+    width: 106px;
+    height: 21px;
+    left: 39px;
+    top: 410px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+
+    color: #F5F5F5;
+}
+
+.Service-3 {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+    /* Supporting text */
+
+    position: absolute;
+    width: 109px;
+    height: 20px;
+    left: 39px;
+    top: 460px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    /* identical to box height, or 100% */
+
+    color: #F5F5F5;
+}
+
+
+.Price-1 {
+    /* Supporting text */
+
+
+position: absolute;
+width: 71px;
+height: 21px;
+left: 441px;
+top: 361px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+text-align: right;
+
+color: #F5F5F5;
+}
+
+.Price-2 {
+    position: absolute;
+    width: 71px;
+    height: 21px;
+    left: 441px;
+    top: 410px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 20px;
+    /* or 83% */
+    
+    text-align: right;
+    
+    color: #F5F5F5;
+}
+
+.Price-3 {
+/* Supporting text */
+
+
+position: absolute;
+width: 71px;
+height: 21px;
+left: 441px;
+top: 460px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 20px;
+/* or 83% */
+
+text-align: right;
+
+color: #F5F5F5;
+}
+
+span {
+    color: #918E9B;
+}
+
+/* ---------Horizontal Line----------  */
+
+.line-23 {
+    /* Line 23 */
+
+
+position: absolute;
+width: 471px;
+height: 0px;
+left: 39px;
+top: 520px;
+
+border: 1px solid #C3C6DB;
+}
+
+
+/* ---------Two Columns (NOTES and AMOUNT)----------  */
+
+
+.Notes {
+/* Example */
+
+
+position: absolute;
+width: 105px;
+height: 28px;
+left: 39px;
+top: 520px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 32px;
+/* or 267% */
+
+
+color: #D5D4D8;
+}
+
+.payment-options {
+    /* Supporting text */
+
+
+position: absolute;
+width: 218px;
+height: 15px;
+left: 39px;
+top: 555px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+
+color: #F5F5F5;
+}
+
+
+.Total-Am {
+/* Example */
+
+
+position: absolute;
+width: 105px;
+height: 28px;
+left: 405px;
+top: 525px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 32px;
+/* or 267% */
+
+text-align: right;
+
+color: #D5D4D8;
+}
+
+
+/* ---------Money----------  */
+
+.Money {
+    /* Example */
+
+
+position: absolute;
+width: 105px;
+height: 28px;
+left: 405px;
+top: 540px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 32px;
+/* or 89% */
+
+text-align: right;
+
+color: #F5F5F5;
+}
+
+
+/* ---------Send INvoice----------  */
+
+.Send {
+    /* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+
+position: absolute;
+width: 473px;
+height: 44px;
+left: 38px;
+top: 640px;
+
+background: #3A69D2;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 9px;
+}
+
+.Send p {
+    /* Text */
+
+position: static;
+width: 98px;
+height: 24px;
+left: 202.5px;
+top: 10px;
+
+/* text-base/leading-6/font-medium */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12px;
+}
